@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotdec-service</title>
+    <!-- template css -->
+    <link rel="stylesheet" href="./service.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark  fixed-top navbar navbar-expand-lg navbar-dark shadow-sm"
+        style="font-family: 'syne', sans-serif; background-color:#171420">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html"><img
+                    src="https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/logo_Asset-2.png"
+                    width="100% " height="51" alt=""></a>
+
+
+            <button class="navbar-toggler d-lg-none " type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="offcanvas offcanvas-start  text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <a class="navbar-brand fw-bold" href="index.html"><img
+                            src="https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/logo_Asset-2.png"
+                            width="100% " height="51" alt=""></a>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+
+                <div class="offcanvas-body">
+
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="./index.html" aria-expanded="false" >
+                                Home
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link  " href="about.html" aria-expanded="false">
+                                About
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link  " href="service.html" id="pagesDropdown" role="button" style="color: #5F65F4;"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services <i class="fa-solid fa-angle-down" style="color: #5F65F4;"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                <li><a class="dropdown-item" href="service.html">Services</a></li>
+                                <li><a class="dropdown-item" href="service_details.html">Services Details</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link " href="faq.html" id="pagesDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages <i class="fa-solid fa-angle-down" style="color: #5F65F4;"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                                <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="contact.html" aria-expanded="false">
+                                Contacts
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <a class="btn-contact d-none d-md-inline-block ms-3 text-white fw-lighter"
+                        href="./contact.html">Contact
+                        Us</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+
+    <section class="service-hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Services</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="./index.html" style="color: #5F65F4;">Home</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Services</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+
+    <!-- hero-1 -->
+
+    <div class="containerfluid" style="background-color:#171420 ;">
+        <div class="container py-5">
+            <h6 class="text-center py-3" style="color: #5F65F4; letter-spacing:2px;">OUR SERVICES</h6>
+            <h1 class="text-white text-center" style="font-size: 50px;">Discover Luxury in Web Hosting</h1>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Wordpres Hosting</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Cloud Hosting</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Website Hosting</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Cloud VPS</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Free Domain</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Migrations</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">Corporate Server</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-2">
+                    <div class="service-box py-5 about_services" style="background-color: #1F1D2C;">
+                        <div class="service-circle mx-5"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                        <h4 class="text-white px-5 mt-4">SSL Service</h4>
+                        <p class="text-white px-5 mt-3">Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Duis
+                            efficitur dui nec.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero-2 -->
+
+    <div class="containerfluid" style="background-color: #171420">
+        <div class="container ">
+            <div class="row py-5 ">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 mt-5 mb-5">
+                    <div class="box-1 hero4_box  py-4" style="background-color: #1F1D2C;">
+                        <div class="d-flex gap-4 gap-md-2 mx-md-4 mx-5 align-items-center">
+                            <div>
+                                <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                            </div>
+                            <div>
+                                <h3 class="text-white">Wordpress</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 hero4_box   py-4 mt-3" style="background-color: #1F1D2C;">
+                        <div class="d-flex gap-4 gap-md-2 mx-md-4 mx-5 align-items-center">
+                            <div>
+                                <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                            </div>
+                            <div>
+                                <h4 class="text-white">Magento</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 hero4_box  py-4 mt-3" style="background-color: #1F1D2C;">
+                        <div class="d-flex gap-4 mx-5 gap-md-2 mx-md-4 align-items-center">
+                            <div>
+                                <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                            </div>
+                            <div>
+                                <h4 class="text-white">Laravel</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-1 hero4_box  py-4 mt-3" style="background-color: #1F1D2C;">
+                        <div class="d-flex gap-4 mx-5 gap-md-2 mx-md-4 align-items-center">
+                            <div>
+                                <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                            </div>
+                            <div>
+                                <h4 class="text-white ">PHP</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-8 col-md-8 col-sm-12 mt-5 ">
+                    <h6 class=" fs-md-2" style="color: #5F65F4; letter-spacing:2px;">OUR CAPABILITIES</h6>
+                    <h1 class="text-white mt-3" style="font-size: 50px;">From Skyline to the Shoreline, <br> We Are
+                        There</h1>
+                    <p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a dui id
+                        metus elementum rutrum. Quisque et imperdiet ipsum. Nunc molestie nunc ac augue sodales luctus.
+                    </p>
+                    <!-- First Row -->
+                    <div class="d-flex flex-column flex-md-row gap-4">
+                        <div class="d-flex gap-3">
+                            <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                            <div class="text-white">Unlimited Bandwidth</div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                            <div class="text-white">Unlimited Site</div>
+                        </div>
+                    </div>
+
+                    <!-- Second Row -->
+                    <div class="d-flex flex-column flex-md-row gap-4 mt-2">
+                        <div class="d-flex gap-3">
+                            <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                            <div class="text-white">Super Turbo Power</div>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                            <div class="text-white">24/7 Full Support</div>
+                        </div>
+                    </div>
+                    <a class=" d-none d-md-inline-block get-btn fw-bold mt-4" href="#">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hero-3 -->
+
+    <div class="containerfluid" style="background-color: #1F1D2C; font-family: 'syne', sans-serif;">
+        <div class="container py-5">
+            <h6 class=" text-center" style="color: #5F65F4; letter-spacing:2px">PRICING PLANS</h6>
+            <h1 class="text-white mt-4 fw-bold text-center" style="font-size: 50px;">Hosting With Freedom Built-In</h1>
+            <div class="row mt-5">
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card1 border_box_hero3 py-3" style="background-color:#5F65F4;">
+                        <div class="box1 mx-3  px-4 py-4 " style="background-color: #9694E7;">
+
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-white">Cloud Hosting</h5>
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">Lorem ipsum dolor sit amet, <br> consec tetur adipiscing elit.
+                            </p>
+                            <div class="d-flex gap-3">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">100 Websites</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">90 GB SSD Storage</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">4 GB RAM</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">Free Premuim SSL</div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-2 ">
+                            <h1 class="text-white fw-bold" style="font-size: 50px;">$10.2/<sub
+                                    style="font-size: 20px;">month</sub></h1>
+                            <a class=" d-none d-md-block mx-3 hero3_btn1   discover-btn fw-bold " href="#">Get
+                                Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-sm-4 mt-md-0 testimonials_card mt-lg-0">
+                    <div class="card1 border_box_hero3 py-3" style="background-color:black;">
+                        <div class="box1 mx-3  px-4 py-4 " style="background-color:#1F1D2C;">
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-white">Corporate</h5>
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">Lorem ipsum dolor sit amet, <br> consec tetur adipiscing elit.
+                            </p>
+                            <div class="d-flex gap-3">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">100 Websites</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">90 GB SSD Storage</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">4 GB RAM</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">Free Premuim SSL</div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-2 ">
+                            <h1 class="text-white fw-bold" style="font-size: 50px;">$10.2/<sub
+                                    style="font-size: 20px;">month</sub></h1>
+                            <a class=" d-none hero3_btn d-md-block mx-3  discover1-btn fw-bold " href="#">Get
+                                Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-sm-4  testimonials_card mt-lg-0">
+                    <div class="card1 border_box_hero3 py-3" style="background-color:black;">
+                        <div class="box1 mx-3  px-4 py-4 " style="background-color:#1F1D2C;">
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-white">Cloud VPS</h5>
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">Lorem ipsum dolor sit amet, <br> consec tetur adipiscing elit.
+                            </p>
+                            <div class="d-flex gap-3">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">100 Websites</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">90 GB SSD Storage</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">4 GB RAM</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">Free Premuim SSL</div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-2 ">
+                            <h1 class="text-white fw-bold" style="font-size: 50px;">$10.2/<sub
+                                    style="font-size: 20px;">month</sub></h1>
+                            <a class=" d-none d-md-block mx-3 hero3_btn  discover1-btn fw-bold " href="#" hero3_btn>Get
+                                Started</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-sm-4  testimonials_card mt-lg-0">
+                    <div class="card1 border_box_hero3 py-3" style="background-color:black;">
+                        <div class="box1 mx-3  px-4 py-4 " style="background-color:#1F1D2C;">
+                            <div class="d-flex align-items-center gap-3">
+                                <div>
+                                    <div class="circle1"><i class="fa-solid fa-cloud" style="color: #5F65F4;"></i></div>
+                                </div>
+                                <div>
+                                    <h5 class="fw-bold text-white">Dedicated</h5>
+                                </div>
+                            </div>
+                            <p class="mt-3 text-white">Lorem ipsum dolor sit amet, <br> consec tetur adipiscing elit.
+                            </p>
+                            <div class="d-flex gap-3">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">100 Websites</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">90 GB SSD Storage</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">4 GB RAM</div>
+                            </div>
+                            <div class="d-flex gap-3 mt-2">
+                                <div><i class="fa-solid fa-check" style="color: #5F65F4;"></i></div>
+                                <div class="hero3_text">Free Premuim SSL</div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-2 ">
+                            <h1 class="text-white fw-bold" style="font-size: 50px;">$10.2/<sub
+                                    style="font-size: 20px;">month</sub></h1>
+                            <a class=" d-none hero3_btn d-md-block mx-3  discover1-btn fw-bold " href="#">Get
+                                Started</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- HERO 4 -->
+
+
+    <div class="container-fluid faq-section" style="background-color: #151223;">
+        <div class="container">
+            <div class="row align-items-start g-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                    <div class="faq-title">FAQS</div>
+                    <h2 class="faq-heading text-white   ">Frequently Asked<br>Questions</h2>
+                    <p class="faq-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a dui id metus elementum rutrum.
+                        Quisque et imperdiet ipsum.
+                    </p>
+                    <button class="get-btn">Contact Us</button>
+                </div>
+
+                <!-- Right FAQ Accordion -->
+                <div class="col-lg-6">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-lg-3 mb-md-3 rounded-0">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    What is the difference between Cloud Hosting and Cloud VPS?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Cloud Hosting uses multiple servers to balance the load and maximize uptime, whereas
+                                    Cloud VPS is a virtual private server within a cloud environment.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-lg-3 mb-md-3  rounded-0">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Is your hosting compatible with WordPress?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, our hosting plans are fully compatible with WordPress and optimized for speed
+                                    and
+                                    performance.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-lg-3 mb-md-3  rounded-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you provide services for website migration?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we provide free website migration services to help you move from your existing
+                                    host.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item  rounded-0 ">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What payment methods are available at Hostdec?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept credit/debit cards, PayPal, and various international payment gateways.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <section class="newsletter-section text-white">
+        <div class="d-flex justify-content-center">
+            <div class="newsletter-content w-100" style="max-width: 1000px;">
+                <p class="text-uppercase fw-semibold" style="letter-spacing: 2px;">Newsletter</p>
+                <h2 class="newsletter-title mb-4">Subscribe to our Newsletter</h2>
+
+                <form class="row justify-content-center newsletter-form" novalidate>
+                    <div class="col-12 col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="col-12 col-md-auto mt-3 mt-md-0">
+                        <button type="submit" class=" btn px-5">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FTR -->
+
+    <div class="container-fluid ftr">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column -->
+                <div
+                    class="col-lg-4 col-md-12 col-sm-12 mb-4 d-flex flex-column align--lg-items-start justify-md-content-center text-lg-start mb-md-5">
+                    <img class="d-block mx-md-auto mx-sm-0 mx-lg-0"
+                        src="https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/logo_Asset-2.png"
+                        width="40%" alt="">
+                    <p class="mt-4" style="color: #777777;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nibh vehicula.
+                    </p>
+                    <div class="social-icons mt-4 d-flex gap-2 justify-lg-content-start">
+                        <a class="  px-3 py-2" style="border-radius: 50%; " href="#"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a class="btn-contact px-3 py-2" style="border-radius: 50%;" href="#"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="btn-contact px-3 py-2" style="border-radius: 50%;" href="#"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a class="btn-contact px-3 py-2" style="border-radius: 50%;" href="#"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right Columns -->
+                <div class="col-lg-8 column-gap-md-3">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-sm-6 col-lg-4 mb-4">
+                            <h4 class="text-white">Get In Touch</h4>
+                            <div class="mt-4">
+                                <p class="d-flex gap-3 mb-2"><i class="fa-solid fa-location-dot"
+                                        style="color:#5F65F4;"></i> <span style="color:#777;">457 Morningview Lane,
+                                        NY</span></p>
+                                <p class="d-flex gap-3 mb-2"><i class="fa-solid fa-envelope" style="color:#5F65F4;"></i>
+                                    <span style="color:#777;">example@mail.com</span>
+                                </p>
+                                <p class="d-flex gap-3 mb-2"><i class="fa-solid fa-phone" style="color:#5F65F4;"></i>
+                                    <span style="color:#777;">+1 (234) 567 890</span>
+                                </p>
+                                <p class="d-flex gap-3"><i class="fa-solid fa-clock" style="color:#5F65F4;"></i> <span
+                                        style="color:#777;">07.00 AM - 19.00 PM</span></p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 ftr_center_part">
+                            <div class="text-start text-sm-start">
+                                <h4 class="text-white">Quicklinks</h4>
+                                <ul class="list-unstyled mt-4">
+                                    <li class="mb-2"><a href="index.html" class="text-decoration-none">Home</a></li>
+                                    <li class="mb-2"><a href="about.html" class="text-decoration-none">About</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none">Team</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none">Pricing</a></li>
+                                    <li><a href="#" class="text-decoration-none">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4 ftr_center_part">
+                            <div class="text-start text-sm-start">
+                                <h4 class="text-white">Support</h4>
+                                <ul class="list-unstyled mt-4">
+                                    <li class="mb-2"><a href="#" class="text-decoration-none">Help
+                                            Center</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none">Career</a></li>
+                                    <li class="mb-2"><a href="faq.html" class="text-decoration-none">FAQs</a></li>
+                                    <li class="mb-2"><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                                    <li><a href="contact.html" class="text-decoration-none">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <hr style="border-color: #333;">
+            <div class="d-flex flex-column flex-md-row justify-content-between text-center text-md-start">
+                <p style="color:#777;">Copyright © 2022 ASK Project</p>
+                <div class="d-flex gap-3 justify-content-center justify-content-md-end">
+                    <p style="color:#777;">Privacy Policy</p>
+                    <p style="color:#777;">Terms & Services</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<!-- bootstrap scrpit -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+
+</html>

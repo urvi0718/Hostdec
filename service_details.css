@@ -1,0 +1,328 @@
+/* navbar */
+
+.nav-item .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    width: 200px;
+    margin-top: 10px;
+    border-top: 2px solid #5F65F4;
+    border-radius: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.nav-item a {
+    color: white;
+
+}
+
+.nav-item a:hover {
+    color: #5F65F4;
+}
+
+
+.dropdown-menu .dropdown-item {
+    background-color: transparent !important;
+    color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #5F65F4;
+}
+
+.nav-item:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    background-color: #1F1D2C;
+}
+
+.btn-contact {
+    color: #23292c;
+    font-size: 18px;
+    padding: 10px 35px;
+    border: 1px solid #5F65F4;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #5F65F4;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px
+    }
+}
+
+/* hero */
+
+.services_details_hero {
+    background: url('https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/browsing-and-bonding-AV7DF72.jpg') center center / cover no-repeat;
+    position: relative;
+    color: #fff;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.services_details_hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.services_details_hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.breadcrumb a {
+    color: #b3aaff;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO1 */
+
+
+.service-box-img {
+    background-image: url("https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/technicians-using-laptop-while-analyzing-server-CC4MP6J.jpg");
+    background-size: cover;
+    opacity: 0.6;
+}
+.service-box-img p {
+    color: #fff;
+} 
+
+.service-circle {
+    padding: 12px 12px;
+    background-color: #777777;
+    border-radius: 50%;
+    display: inline;
+}
+
+.get-btn {
+    color: white;
+    font-size: 18px;
+    padding: 10px 35px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background-color: #5F65F4;
+}
+
+.get-btn:hover {
+    background-color: white;
+    color: #5F65F4;
+    text-decoration: none;
+}
+
+.about_services:hover {
+    border: 1px solid #5F65F4;
+    transition: border 0.3s ease;
+}
+
+@media (width: 320px) {
+    .hero_Service_details img {
+        width: 280px;
+    }
+    .hero_Service_details h1 {
+        margin-top: 15px;
+    }
+    .hero_Service_details h5 {
+        margin-top: 15px;
+    }
+    .hero_Service_details p {
+        margin-top: 20px;
+    }
+    .hero_Service_details .service-box {
+        margin-top: 15px;
+        padding: 10px;
+    }
+ .img2 img {
+        display: none;
+    }
+    .hero_Service_details .img1 {
+        margin-bottom: 20px;
+    }
+    .services_card1 {
+        margin-top: 15px;
+    }
+    .service-box-img {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+.newsletter-section {
+    background-color: #908ef7;
+    position: relative;
+    padding: 80px 20px;
+    overflow: hidden;
+    /* Optional: Add radius if you want soft corners */
+}
+
+.newsletter-section::before,
+.newsletter-section::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #5d5fff;
+    z-index: 0;
+}
+
+.newsletter-section::before {
+    width: 500px;
+    height: 500px;
+    top: -250px;
+    left: -250px;
+}
+
+.newsletter-section::after {
+    width: 500px;
+    height: 500px;
+    bottom: -250px;
+    right: -250px;
+}
+
+.newsletter-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.newsletter-form input.form-control {
+    height: 60px;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.newsletter-form .btn {
+    height: 60px;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.newsletter-form .btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width: 576px) {
+    .newsletter-form .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FTR */
+
+
+.ftr {
+    background-color: #171420;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.social-icons a {
+    background-color: #5F65F4;
+    color: #000;
+    margin-right: 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: #5F65F4;
+}
+
+.ftr_center_part a {
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+.ftr_center_part a:hover {
+    color: #5F65F4;
+}
+
+@media (max-width: 768px) {
+    .social-icons {
+        justify-content: center;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+}

@@ -1,0 +1,504 @@
+    /* navbar */
+    .nav-item .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        width: 200px;
+        margin-top: 10px;
+        border-top: 2px solid #5F65F4;
+        border-radius: 0;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(10px);
+        transition: all 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .nav-item a {
+        color: white;
+
+    }
+
+    .nav-item a:hover {
+        color: #5F65F4;
+    }
+
+
+    .dropdown-menu .dropdown-item {
+        background-color: transparent !important;
+        color: white;
+    }
+
+    .dropdown-menu .dropdown-item:hover {
+        color: #5F65F4;
+    }
+
+    .nav-item:hover .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        background-color: #1F1D2C;
+    }
+
+    .btn-contact {
+        color: #23292c;
+        font-size: 18px;
+        padding: 10px 35px;
+        border: 1px solid #5F65F4;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn-contact:hover {
+        background-color: #5F65F4;
+        color: white;
+        text-decoration: none;
+    }
+
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px
+        }
+    }
+
+
+    /* MAIN */
+    .about-hero {
+        background: url('https://askproject.net/hostdec/wp-content/uploads/sites/67/2022/04/professional-development-programmer-cooperating-me-TGRYHYK.jpg') center center / cover no-repeat;
+        position: relative;
+        color: #fff;
+        padding: 120px 0;
+        text-align: center;
+    }
+
+    .about-hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 0;
+    }
+
+    .about-hero .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .breadcrumb a {
+        color: #b3aaff;
+        text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+        text-decoration: underline;
+    }
+
+    /* hero1 */
+
+
+    .discover-btn {
+        color: white;
+        font-size: 18px;
+        padding: 10px 35px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background-color: #5F65F4;
+    }
+
+    .discover-btn:hover {
+        background-color: white;
+        color: #5F65F4;
+        text-decoration: none;
+    }
+
+    .circle2 {
+        padding: 220px 220px;
+        background-color: #9694E7;
+        border-radius: 50%;
+        display: inline;
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+
+    .host-box {
+        position: absolute;
+        top: 30%;
+        left: -10%;
+    }
+
+    .host-box1 {
+        position: absolute;
+        top: 65%;
+        left: 25%;
+    }
+
+    @media (width: 320px) {
+        .hero1_img_about {
+            display: none ; 
+        }
+
+    }
+
+
+
+    /* hero2  */
+
+    .service-circle {
+        padding: 12px 12px;
+        background-color: #777777;
+        border-radius: 50%;
+        display: inline;
+    }
+
+    .get-btn {
+        color: white;
+        font-size: 18px;
+        padding: 10px 35px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background-color: #5F65F4;
+    }
+
+    .get-btn:hover {
+        background-color: white;
+        color: #5F65F4;
+        text-decoration: none;
+    }
+
+    .about_services:hover {
+        border: 1px solid #5F65F4;
+        transition: border 0.3s ease;
+    }
+
+
+
+    /* hero3 */
+
+    .circle1 {
+        padding: 12px 12px;
+        background-color: #777777;
+        border-radius: 50%;
+        display: inline;
+    }
+
+     .hero4_box:hover {
+        border: 1px solid #5F65F4;
+        transition: border 0.3s ease;
+    }
+
+
+    .discover-btn {
+        color: white;
+        font-size: 18px;
+        padding: 10px 35px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background-color: black;
+    }
+
+    .discover-btn:hover {
+        background-color: white;
+        color: #5F65F4;
+        text-decoration: none;
+    }
+
+    .discover1-btn {
+        color: white;
+        font-size: 18px;
+        padding: 10px 35px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background-color: black;
+    }
+
+    .discover1-btn:hover {
+        background-color: white;
+        color: #5F65F4;
+        text-decoration: none;
+    }
+
+    .border_box_hero3:hover {
+        border: 1px solid #5F65F4;
+        transition: border 0.3s ease;
+    }
+
+    .hero3_btn1 {
+        background-color: #171420;
+    }
+
+    .hero3_btn1:hover {
+        color: #171420;
+    }
+
+    .hero3_btn {
+        background-color: #5F65F4;
+    }
+
+    .hero3_btn:hover {
+        color: #1F1D2C;
+        background-color: white;
+    }
+
+    .hero3_text {
+        color: white;
+    }
+
+    .hero3_text:hover {
+        color: #5F65F4;
+        transition: border 0.3s ease;
+        font-weight: 400;
+    }
+
+    @media (max-width: 320px) {
+        .hero3_btn1 {
+            padding: 10px 80px;
+        }
+
+    }
+
+
+    /* Hero 4 */
+
+
+    .company_name {
+        opacity: 0.3;
+        color: white;
+        transition: opacity 0.3s ease;
+    }
+
+    .company_name:hover {
+        opacity: 1;
+    }
+
+    /* HERO 5 */
+
+
+    .team-card {
+        background-color: #1c192d;
+        border: 2px solid transparent;
+        padding: 20px;
+        transition: border 0.3s ease;
+        text-align: center;
+    }
+
+    .team-card:hover {
+        border-color: #5c5eff;
+    }
+
+    .team-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-name {
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin-top: 15px;
+    }
+
+    .team-role {
+        color: #9c9cff;
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+    }
+
+    .social-icons a {
+        margin: 1px 8px;
+        color: white;
+        background: #2d2a40;
+        border-radius: 50%;
+        padding: 10px;
+        display: inline-block;
+        transition: background 0.3s;
+    }
+
+    .social-icons a:hover {
+        background: #5c5eff;
+        color: white;
+    }
+
+
+
+    /* HERO 5 CONTACT */
+
+
+    .meet-box {
+        display: flex;
+        gap: 100px;
+        padding-top: 15px;
+    }
+
+    .get-btn {
+        color: white;
+        font-size: 18px;
+        padding: 10px 35px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        background-color: #5F65F4;
+    }
+
+    .get-btn:hover {
+        background-color: white;
+        color: #5F65F4;
+        text-decoration: none;
+    }
+
+
+    /* HERO6 */
+
+    .hero6_submit_btn a {
+        background-color: #5c5eff;
+        color: white;
+    }
+
+    .hero6_submit_btn a:hover {
+        background-color: white;
+        color: #000;
+    }
+
+
+
+    /* ... */
+
+
+    .newsletter-section {
+        background-color: #908ef7;
+        position: relative;
+        padding: 80px 20px;
+        overflow: hidden;
+        /* Optional: Add radius if you want soft corners */
+    }
+
+    .newsletter-section::before,
+    .newsletter-section::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background-color: #5d5fff;
+        z-index: 0;
+    }
+
+    .newsletter-section::before {
+        width: 500px;
+        height: 500px;
+        top: -250px;
+        left: -250px;
+    }
+
+    .newsletter-section::after {
+        width: 500px;
+        height: 500px;
+        bottom: -250px;
+        right: -250px;
+    }
+
+    .newsletter-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .newsletter-title {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    .newsletter-form input.form-control {
+        height: 60px;
+        font-size: 16px;
+        border-radius: 0;
+    }
+
+    .newsletter-form .btn {
+        height: 60px;
+        border-radius: 0;
+        background-color: #000;
+        color: #fff;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    }
+
+    .newsletter-form .btn:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    @media (max-width: 576px) {
+        .newsletter-form .btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+
+
+
+
+    /* FTR */
+
+
+    .ftr {
+        background-color: #171420;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .social-icons a {
+        background-color: #5F65F4;
+        color: #000;
+        margin-right: 10px;
+        display: inline-block;
+        transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+        background-color: white;
+        color: #5F65F4;
+    }
+     .ftr_center_part a {
+        color: #777;
+        transition: color 0.3s ease;
+    }
+    .ftr_center_part a:hover {
+        color: #5F65F4;
+    }
+
+    @media (max-width: 768px) {
+        .social-icons {
+            justify-content: center;
+        }
+
+        .container-fluid {
+            text-align: center;
+        }
+    }
